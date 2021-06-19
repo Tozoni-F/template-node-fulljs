@@ -1,6 +1,7 @@
 import HomeSectionOne from '../../components/sections/homeSectionOne'
 import HomeSectionTwo from '../../components/sections/homeSectionTwo'
 import floatImage from '../../components/float/floatImage'
+import footer from '../../components/footer'
 let Home = {
   is_private: false,
 
@@ -10,6 +11,7 @@ let Home = {
             <h1>Star Trek</div>
             ${HomeSectionOne}
             ${HomeSectionTwo}
+            ${footer}
             ${floatImage}
           </div>
       `;

@@ -1,20 +1,10 @@
-import Logo from '../../../assets/images/logo/logo.png'
 import backgroundOne from '../../../assets/images/background/bc1.jpg'
+let TextContent = `Space: the final frontier. These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man has gone before!`
 let HomeSectionOne = 
 `<section class="section background--one" style="background-image: url(${backgroundOne})">
-    <div class="block-section--one">    
-    <h1>Texto verde<h1>
-    <img src=${Logo}
-    alt= "Logo Star Trek"
-
-    width= "400px"
-    height= "auto"
-    opacity= 0.4
+    <div class=" container block-section--one">    
+    <p><h1>${TextContent}</h1></p>
     </div>
-
-
-</section>`
-    // position= "absolute"
-    // left= "516px"
-    // top= "341px">
+</section>
+`
 export default HomeSectionOne
